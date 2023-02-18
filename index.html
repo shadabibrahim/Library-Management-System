@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mohd Shadab f2-contest-18-feb">
+    <title>Library Management System</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>Library Management System</h1>
+       
+            <label for="bookName">Book Name</label>
+            <input type="text" name="bookName" id="bookName"><br><br>
+            <label for="issuedTo">Issued To</label>
+            <input type="text" name="issuedTo" id="issuedTo" style="margin-left: 15px;"><br><br>
+            <button type="submit" onclick="bookIssued()">Issue Book</button>
+       
+    </div>
+<div id="table_content">
+    <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Book Name</th>
+            <th>Issued To</th>
+            <th>Issue Date Time</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table> 
+</div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
